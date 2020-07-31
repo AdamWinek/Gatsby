@@ -1,18 +1,15 @@
 
 $background-color: white;
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-$roboto: 'Roboto';
 $prim-color: #197923;
 
 .mainBox{
     width: 100vw;
     overflow: hidden;
     background-color: $background-color;
-    font-family: $roboto;
 }
 .mainBox {
     .missionDiv{
-        margin-top: 300px;
+        margin-top: 100px;
     }
 }
 .mainBox {
@@ -22,7 +19,7 @@ $prim-color: #197923;
             font-size: 50px;
             line-height: 50px;
             margin-top: 0px;
-            margin-left: 10vw;
+            margin-left: 20px;
             letter-spacing: 3px;
         }
     }
@@ -34,7 +31,7 @@ $prim-color: #197923;
             justify-content: flex-start;
             padding-left: 2em;
             margin: 4vh 0;
-            margin-left: 10vw;
+            margin-left: 20px;
             border-left: 5px solid black;
         }
     }
@@ -49,7 +46,6 @@ $prim-color: #197923;
                 padding-right: 20px;
                 max-width: 600px;
                 font-size: 12px;
-                font-family: $roboto;
                 letter-spacing: 2px;
                 line-height: 25px;
 
@@ -64,10 +60,9 @@ $prim-color: #197923;
             height: 60px;
             background-color: $prim-color;
             letter-spacing: 2px;
-            margin-left: 10vw;
+            margin-left: 20px;
             border: none;
             font-size: 13px;
-            font-family: $roboto;    
             color: #ffffff;
         }
     }
