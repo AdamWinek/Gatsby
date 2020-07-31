@@ -1,7 +1,7 @@
 
 import React, { useState } from "react"
 import '../styles/index.scss'
-import { useTransition, animated } from 'react-spring'
+import { useTransition, animated, config } from 'react-spring'
 import Topnav from "./Topnav"
 import Fullnav from '../components/Full-nav'
 
@@ -14,14 +14,18 @@ function LandingPage() {
 
 
     const NavTransitions = useTransition(isNav, null, {
-        from: { position: 'relative', opacity: 0, transform: "translateX(100%)" },
+        from: { position: 'absolute', opacity: 0, transform: "translateX(100%)" },
         enter: { opacity: 1, transform: "translateX(0%)" },
         leave: { opacity: 0, transform: "translateX(100%)" },
+        config: config.slow,
+
     })
     const LandingTransitions = useTransition(!isNav, null, {
-        from: { position: 'relative', opacity: 0, transform: "translateY(100%)" },
+        from: { position: 'absolute', opacity: 0, transform: "translateY(100%)" },
         enter: { opacity: 1, transform: "translateY(0%)" },
         leave: { opacity: 0 },
+        config: config.slow,
+
        
     })
 
@@ -53,7 +57,7 @@ function LandingPage() {
                             <p className={style.missionP}> My mission is to provide quality therapeutic services to families, couples and individuals. I assist my clients in improving their relationships and creating positive changes in their lives. Working from a holistic and developmental perspective, I assist clients to develop their full potential in order to thrive.
                     </p>
                         </div>
-                        <button className={style.button} onClick={() => setIsNav(!isNav)}>
+                        <button className={style.button} >
                             Get in Contact
                 </button>
 
