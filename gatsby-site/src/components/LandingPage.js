@@ -1,6 +1,4 @@
 import React from "react"
-import '../styles/index.scss'
-
 import style from "../styles/LandingPage.module.scss"
 function LandingPage() {
 
