@@ -2,6 +2,9 @@
 import React, { useState } from "react"
 import '../styles/index.scss'
 import {useTransition, animated} from 'react-spring'
+import Topnav from "./Topnav"
+import Fullnav from '../components/Full-nav'
+
 
 
 import style from "../styles/LandingPage.module.scss"
@@ -9,9 +12,9 @@ function LandingPage() {
 
     const [isNav, setIstNav] = useState(false)
     const transitions = useTransition(isNav, null, {
-        from: { position: 'absolute', opacity: 0 },
-        enter: { opacity: 1 },
-        leave: { opacity: 0 },
+        from: { position: 'absolute', opacity: 0, transform: "translateX(100%)" },
+        enter: { opacity: 1,  transform: "translateX(0%)" },
+        leave: { opacity: 0, transform: "translateX(-100%)" },
     })
 
 
@@ -23,9 +26,14 @@ function LandingPage() {
         < div className = { style.mainBox } >
             {
             transitions.map(({ item, key, props }) =>
-                item && <animated.div key={key} style={props}>✌️</animated.div>
+                item && <animated.div key={key} style={props}>
+
+                    <Fullnav />
+
+                </animated.div>
             )
             }
+            <Topnav></Topnav>
             <div className="header">
 
             </div>

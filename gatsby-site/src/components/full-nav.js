@@ -1,5 +1,5 @@
 import React from "react"
-import Topnav from './topnav'
+import Topnav from './Topnav'
 import fullnavstyles from "../styles/fullnav.module.scss"
 
 const Fullnav = () => {
