@@ -3,56 +3,73 @@ $background-color: white;
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 $roboto: 'Roboto';
 $prim-color: #197923;
+
 .mainBox{
-    height: 100vh;
     width: 100vw;
     overflow: hidden;
     background-color: $background-color;
     font-family: $roboto;
 }
+.mainBox {
+    .missionDiv{
+        margin-top: 300px;
+    }
+}
+.mainBox {
+    .missionDiv{
+        .missionH1{
+            color: black;
+            font-size: 50px;
+            line-height: 50px;
+            margin-top: 0px;
+            margin-left: 10vw;
+            letter-spacing: 3px;
+        }
+    }
+}
+.mainBox {
+    .missionDiv{
+        .missionBox{
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 2em;
+            margin: 4vh 0;
+            margin-left: 10vw;
+            border-left: 5px solid black;
+        }
+    }
+}
+.mainBox {
+    .missionDiv{
+        .missionBox{
+            .missionP{
 
-.missionH1{
-    color: black;
-    font-size: 50px;
-    line-height: 60px;
-    margin-bottom: 30px;
-    margin-left: 8vw;
-    margin-top: 0px;
+                padding: 10px 0;
+                padding-bottom: 30px;
+                padding-right: 20px;
+                max-width: 600px;
+                font-size: 12px;
+                font-family: $roboto;
+                letter-spacing: 2px;
+                line-height: 25px;
+
+            }
+        }
+    }
+}
+.mainBox {
+    .missionDiv{
+        .button{
+            width: 200px;
+            height: 60px;
+            background-color: $prim-color;
+            letter-spacing: 2px;
+            margin-left: 10vw;
+            border: none;
+            font-size: 13px;
+            font-family: $roboto;    
+            color: #ffffff;
+        }
+    }
 }
 
-.missionBox{
-    display: flex;
-    justify-content: start;
-    margin-left: 10vw;
-}
-.missionDiv{
-    margin-top: 300px;
-}
-
-.lineVector{
-    background-color: black;
-    height: 170px;
-    width: 5px;
-    padding: 2px;
-}
-.button{
-    margin-top: 100px;
-    width: 200px;
-    height: 60px;
-    background-color: $prim-color;
-    margin-left: 10vw;
-    border: none;
-    font-size: 15px;
-    font-family: $roboto;    
-    color: #ffffff;
-}
-
-
-.missionP{
-    margin-top: 10px;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    max-width: 400px;
-    font-size: 12px;
-    font-family: $roboto;
-}
