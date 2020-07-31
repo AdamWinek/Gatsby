@@ -1,6 +1,7 @@
 .container {
   display: flex;
   justify-content: space-between;
+  margin: 5vh 0;
 }
 
 .menuspace {
@@ -8,17 +9,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
+  width: 40px;
   height: 60px;
+  margin-right: 20px;
+}
+.logocontainer {
+  margin-left: 20px;
+
+  
+}
+.logocontainer {
+  p {
+    letter-spacing: 2px;
+    font-weight: 500;
+    line-height: 1.3;
+  }
 }
 .middle {
-  width: 60px;
+  width: 40px;
   height: 1px;
   background-color: black;
 }
 .top {
   position: absolute;
-  width: 60px;
+  width: 40px;
   height: 1px;
   top: 20px;
   background-color: black;
@@ -26,10 +40,7 @@
 .bottom {
   position: absolute;
   top: 40px;
-  width: 60px;
+  width: 40px;
   height: 1px;
   background-color: black;
-}
-.break {
-  white-space: pre-line;
 }

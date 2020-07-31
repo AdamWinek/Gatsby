@@ -4,8 +4,8 @@ import topnavstyles from "../styles/topnav.module.scss"
 const Topnav = () => {
   return (
     <div className={topnavstyles.container}>
-      <div>
-        <p >"Jon L. Winek"</p>
+      <div className={topnavstyles.logocontainer}>
+        <p >Jon L.<br></br>Winek<br></br>P.A.</p>
       </div>
       <div className={topnavstyles.menuspace}>
         <div className={topnavstyles.top}></div>
