@@ -1,6 +1,6 @@
 import React from "react"
 
-import style from "../styles/landingPage.module.scss"
+import style from "../styles/LandingPage.module.scss"
 function LandingPage() {
 
     return (

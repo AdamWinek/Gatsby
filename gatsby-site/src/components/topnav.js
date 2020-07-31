@@ -1,5 +1,5 @@
 import React from "react"
-import topnavstyles from "./topnav.module.scss"
+import topnavstyles from "../styles/topnav.module.scss"
 
 const Topnav = () => {
   return (
