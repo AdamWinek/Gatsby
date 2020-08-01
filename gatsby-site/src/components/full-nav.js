@@ -10,16 +10,13 @@ const Fullnav = ( props) => {
             <div className={fullnavstyles.primary}>
                 <ul>
                     <li>Contact</li>
-                    <li>Bio</li>
-                    <li>Qualifications</li>
-                    <li>Credentials</li>
-                    <li>Link to ...</li>
+                    <li>About</li>
+                    <li>Speaking</li>
                 </ul>
             </div>
             <div className={fullnavstyles.secondary}>
                 <ul>
                     <li>Publications</li>
-                    <li>Speaking</li>
                     <li>Payment</li>
                     <li>CV</li>
                 </ul>
