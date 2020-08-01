@@ -1,25 +1,22 @@
 import React from "react"
-import Topnav from './topnav'
+import Topnav from './Topnav'
 import fullnavstyles from "../styles/fullnav.module.scss"
 
-const Fullnav = () => {
+const Fullnav = ( props) => {
   return (
     <div className={fullnavstyles.container}>
-        <Topnav />
+        <Topnav  setIsNav={() => props.setIsNav()} isNav={props.isNav}/>
         <div className={fullnavstyles.menucontainer}>
             <div className={fullnavstyles.primary}>
                 <ul>
                     <li>Contact</li>
-                    <li>Bio</li>
-                    <li>Qualifications</li>
-                    <li>Credentials</li>
-                    <li>Link to ...</li>
+                    <li>About</li>
+                    <li>Speaking</li>
                 </ul>
             </div>
             <div className={fullnavstyles.secondary}>
                 <ul>
                     <li>Publications</li>
-                    <li>Speaking</li>
                     <li>Payment</li>
                     <li>CV</li>
                 </ul>
