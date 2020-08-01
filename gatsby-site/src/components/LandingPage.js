@@ -46,11 +46,9 @@ function LandingPage() {
                 )
             }
             {LandingTransitions.map(({ item, key, props }) =>
-                item && <animated.div key={key} style={props}>
+                item && <animated.div key={key} style={props} className={style.animated}>
                     <Topnav setIsNav={() => setIsNav(true) } isNav={isNav} />
-                    <div className="header">
-
-                    </div>
+                    
                     <div className={style.missionDiv}>
                         <h1 className={style.missionH1}> Mission Statement</h1>
                         <div className={style.missionBox}>
@@ -59,7 +57,7 @@ function LandingPage() {
                         </div>
                         <button className={style.button} >
                             Get in Contact
-                </button>
+                        </button>
 
 
 
