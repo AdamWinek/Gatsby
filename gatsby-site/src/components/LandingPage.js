@@ -4,6 +4,7 @@ import '../styles/index.scss'
 import { useTransition, animated, config } from 'react-spring'
 import Topnav from "./Topnav"
 import Fullnav from '../components/Full-nav'
+import About from '../components/About'
 
 
 
@@ -62,6 +63,7 @@ function LandingPage() {
 
 
                     </div>
+                    <About />
 
 
 
