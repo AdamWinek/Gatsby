@@ -7,12 +7,13 @@ const About = props => {
       <h1>About </h1>
       <h2 className={aboutstyles.name}>Dr. Winek</h2>
       <div className={aboutstyles.bio}>
-        <div className={aboutstyles.profile}></div>
+        
 
         <div className={aboutstyles.content}>
+        <div className={aboutstyles.profile}></div>
           <h2>Bio</h2>
           <p>
-            Jon Winek is Marriage and Family Therapist and a Professor in the
+            Jon Winek is a Marriage and Family Therapist and a Professor in the
             Department of Human Development and Psychological Counseling at
             Appalachian State University. Dr. Winek received his PhD from the
             University of Southern California in Sociology. He has practiced
