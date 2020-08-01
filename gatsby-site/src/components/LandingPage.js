@@ -4,6 +4,7 @@ import '../styles/index.scss'
 import { useTransition, animated, config } from 'react-spring'
 import Topnav from "./Topnav"
 import Fullnav from '../components/Full-nav'
+import * as easings from 'd3-ease'
 
 
 
