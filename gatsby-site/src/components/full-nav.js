@@ -4,6 +4,7 @@ import fullnavstyles from "../styles/fullnav.module.scss"
 
 const Fullnav = ( props) => {
   return (
+
     <div className={fullnavstyles.container}>
         <Topnav  setIsNav={() => props.setIsNav()} isNav={props.isNav}/>
         <div className={fullnavstyles.menucontainer}>
@@ -23,6 +24,7 @@ const Fullnav = ( props) => {
             </div>
         </div>
     </div>
+   
   )
 }
 

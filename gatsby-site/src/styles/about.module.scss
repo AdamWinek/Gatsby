@@ -20,7 +20,7 @@ $secondary: rgba(0, 0, 0, 0.466);
 .bio {
     margin-top: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
    
     h2 {
         
@@ -28,7 +28,7 @@ $secondary: rgba(0, 0, 0, 0.466);
     }
     p {
         padding-top: 20px;
-        max-width: 800px;
+        max-width: 1000px;
         font-size: 14px;
         letter-spacing: 2px;
         line-height: 25px;
@@ -67,8 +67,10 @@ $secondary: rgba(0, 0, 0, 0.466);
     background: url("../images/profileimg.png");
     width: 200px;
     height: 200px;
-    background-position: center;
     background-size: cover;
+    shape-outside: circle();
+    float: left;
+    margin-right: 40px;
    
     
  
