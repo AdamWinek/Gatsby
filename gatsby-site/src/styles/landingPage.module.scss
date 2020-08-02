@@ -1,77 +1,79 @@
-
 $background-color: white;
-$prim-color: rgba(25,121,35,.7);
+$prim-color: rgba(25, 121, 35, 0.7);
 
-.mainBox{
-    width: 100vw;
-    overflow: hidden;
-    background-color: $background-color;
+.mainBox {
+  width: 100vw;
+  overflow: hidden;
+  background-color: $background-color;
 }
 .mainBox {
-    .missionDiv{
-        margin-top: 100px;
-    }
+  .missionDiv {
+    padding-top: 100px;
+    background: url("../images/mission3.jpg");
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 100px;
+  }
 }
-.animated{
-    width: 100vw;
+.animated {
+  width: 100vw;
 }
 .center {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .mainBox {
-    .missionDiv{
-        .missionH1{
-            color: black;
-            font-size: 50px;
-            line-height: 50px;
-            margin-top: 0px;
-            margin-left: 20px;
-            letter-spacing: 3px;
-        }
+  .missionDiv {
+    .missionH1 {
+      color: white;
+      font-size: 50px;
+      line-height: 50px;
+      margin-top: 0px;
+      margin-left: 20px;
+      letter-spacing: 3px;
+      max-width: 500px;
     }
+  }
 }
 .mainBox {
-    .missionDiv{
-        .missionBox{
-            display: flex;
-            justify-content: flex-start;
-            padding-left: 2em;
-            margin: 4vh 0;
-            margin-left: 20px;
-            border-left: 5px solid black;
-        }
+  .missionDiv {
+    .missionBox {
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 2em;
+      margin: 4vh 0;
+      margin-left: 20px;
+      border-left: 5px solid white;
     }
+  }
 }
 .mainBox {
-    .missionDiv{
-        .missionBox{
-            .missionP{
-
-                padding: 10px 0;
-                padding-bottom: 30px;
-                padding-right: 20px;
-                max-width: 600px;
-                font-size: 14px;
-                letter-spacing: 2px;
-                line-height: 25px;
-
-            }
-        }
+  .missionDiv {
+    .missionBox {
+      .missionP {
+        padding: 10px 0;
+        padding-bottom: 30px;
+        padding-right: 20px;
+        max-width: 600px;
+        font-size: 14px;
+        letter-spacing: 2px;
+        line-height: 25px;
+        color: white;
+      }
     }
+  }
 }
 .mainBox {
-    .missionDiv{
-        .button{
-            width: 200px;
-            height: 60px;
-            background-color: $prim-color;
-            letter-spacing: 2px;
-            margin-left: 20px;
-            border: none;
-            font-size: 14px;
-            color: #ffffff;
-        }
+  .missionDiv {
+    .button {
+      width: 200px;
+      height: 60px;
+      background-color: rgb(41, 155, 75);
+      letter-spacing: 2px;
+      margin-left: 20px;
+      border: none;
+      font-size: 14px;
+      color: #ffffff;
     }
+  }
 }
-
