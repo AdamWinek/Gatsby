@@ -1,0 +1,89 @@
+$secondary: rgba(0, 0, 0, 0.466);
+
+
+.publicationsH1{
+    font-size: 50px;
+    margin-left: 20px;
+    width: calc(100vw - 20px);
+    letter-spacing: 10%;
+}
+
+
+.bookBox{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5vh;
+
+    
+}
+
+.bookBox{
+    .book{
+        display: flex;
+        justify-content: center;
+        z-index: 20;
+    }
+    
+}
+
+
+.bookBox{
+    .bookImg{
+        height: auto;
+        width: 40vw;
+        max-width: 480px;
+        z-index: 20;
+    }
+    
+}
+
+.bookBox{
+    .book{
+        .title{
+            font-size: 24px;
+            margin-left: 15px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+    }
+    
+}
+
+.bookBox{
+    .book{
+        .authors{
+            color:  $secondary;
+            font-size: 14px;
+            margin-left: 15px;
+        }
+    }
+    
+}
+
+.bookBox{
+    .description{
+        background-color: #F0D36A;
+        z-index: -20;
+        transform: translate(-10px, -10px);
+    }
+
+    
+}
+
+.bookBox{
+    .description{
+       .descriptionText{
+           color: white;
+           font-size: 14px;
+           font-weight: 400;
+           padding-top: 50px;
+           padding-bottom: 50px;
+           padding-left: 30px;
+           padding-right: 30px;
+           word-spacing: .1em;
+       }
+        
+    }
+
+    
+}
