@@ -14,8 +14,8 @@ function Publications() {
 
             <div className={styles.bookBox}>
                 <div className={styles.book}>
-                    <img className={styles.bookImg} src={require("../images/GroupActivities.jpg")} />
-                    <div>
+                    <div className={styles.divImg}><img className={styles.bookImg} src={require("../images/GroupActivities.jpg")} /></div>
+                    <div className={styles.booktextdiv}>
                         <h1 className={styles.title}> Group Activities For Families in Recovery</h1>
 
                         <p className={styles.authors}>Joan Zimmerman</p>

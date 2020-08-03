@@ -1,89 +1,168 @@
 $secondary: rgba(0, 0, 0, 0.466);
 
-
-.publicationsH1{
-    font-size: 50px;
-    margin-left: 20px;
-    width: calc(100vw - 20px);
-    letter-spacing: 10%;
+.publicationsH1 {
+  font-size: 50px;
+  margin-left: 20px;
+  width: calc(100vw - 20px);
+  letter-spacing: 10%;
 }
 
-
-.bookBox{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 5vh;
-
-    
+.bookBox {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.bookBox{
-    .book{
-        display: flex;
-        justify-content: center;
-        z-index: 20;
+.bookBox {
+  .book {
+    display: flex;
+    justify-content: center;
+    z-index: 20;
+    max-width: 805px;
+  }
+}
+
+.bookBox {
+  .bookImg {
+    height: auto;
+    max-width: 30vw;
+    z-index: 20;
+    min-width: 100px;
+  }
+}
+
+.bookBox {
+  .book {
+    .title {
+      font-size: 4.5vw;
+     
+      margin-top: 5px;
+      margin-bottom: 15px;
     }
-    
+  }
+}
+.booktextdiv {
+    margin-left: 15px;
 }
 
-
-.bookBox{
-    .bookImg{
-        height: auto;
-        width: 40vw;
-        max-width: 480px;
-        z-index: 20;
+.bookBox {
+  .book {
+    .authors {
+      color: $secondary;
+      font-size: 2vw;
     }
-    
+  }
 }
 
-.bookBox{
-    .book{
-        .title{
-            font-size: 24px;
-            margin-left: 15px;
-            margin-top: 5px;
-            margin-bottom: 15px;
+.bookBox {
+  .description {
+    background-color: #f0d36a;
+    z-index: -20;
+    transform: translate(-20px, -20px);
+    max-width: 805px;
+  }
+}
+
+.bookBox {
+  .description {
+    .descriptionText {
+      color: white;
+      font-size: 14px;
+      letter-spacing: 2px;
+      line-height: 25px;
+      font-weight: 400;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}
+$breakpoint-tablet: 768px;
+$large-desktop: 1580px;
+$small-phone: 320px;
+
+@media (max-width: $breakpoint-tablet) {
+    .bookBox {
+        .description {
+          margin-top: 40px;
         }
-    }
+      }
+      .bookBox {
+        .book {
+          flex-direction: row;
+          position: relative;
+        }
+      }
     
-}
-
-.bookBox{
-    .book{
-        .authors{
-            color:  $secondary;
+      .bookBox {
+        .book {
+          .authors {
             font-size: 14px;
-            margin-left: 15px;
+          }
         }
-    }
-    
-}
-
-.bookBox{
-    .description{
-        background-color: #F0D36A;
-        z-index: -20;
-        transform: translate(-10px, -10px);
-    }
-
-    
-}
-
-.bookBox{
-    .description{
-       .descriptionText{
-           color: white;
-           font-size: 14px;
-           font-weight: 400;
-           padding-top: 50px;
-           padding-bottom: 50px;
-           padding-left: 30px;
-           padding-right: 30px;
-           word-spacing: .1em;
-       }
+      }
+      .bookBox {
+        .book {
+          .title {
+            font-size: 24px;
+          }
+        }
+      }
+      .divImg {
+        margin-bottom: -60px;
         
-    }
+        
+         
+      }
 
-    
+
+}
+@media (max-width: $small-phone) {
+    .bookBox {
+        .book {
+          flex-direction: column;
+          position: relative;
+        }
+      }
+      .divImg {
+        margin-bottom: 0px;
+         
+      }
+      .booktextdiv {
+        margin-left: 0px;
+    }
+    .publicationsH1 {
+        font-size: 30px;
+      }
+
+}
+@media (min-width: $large-desktop) {
+    .bookBox {
+        .book {
+          .title {
+            font-size: 70px;
+          }
+        }
+      }
+}
+@media (max-width: 1150px) and (min-width: 540px){
+    .bookBox {
+        .book {
+          .title {
+            font-size: 5.5vw;
+          }
+        }
+      }
+      .bookBox {
+        .book {
+          .authors {
+            font-size: 3vw;
+          }
+        }
+      }
+
 }
