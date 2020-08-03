@@ -1,8 +1,5 @@
 import React from "react";
 import styles from "../styles/publications.module.scss";
-import topnav from "../components/topnav";
-import Topnav from "../components/topnav";
-
 
 function Publications() {
 
@@ -10,7 +7,6 @@ function Publications() {
 
     return (
         <div className={styles.fullBox}>
-            <Topnav />
 
             <h1
                 className={styles.publicationsH1}

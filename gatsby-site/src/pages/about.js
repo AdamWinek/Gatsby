@@ -3,10 +3,10 @@ import NavWrapper from "../components/NavWrapper"
 
 import '../styles/index.scss'
 
-export default function Home() {
+export default function about() {
   return (
           <div>
-            <NavWrapper  type="LandingPage"/>
+            <NavWrapper  type="About"/>
           </div>
   )
 }
