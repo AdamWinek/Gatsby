@@ -7,6 +7,7 @@ import About from "./About"
 import Publications from "../components/Publications"
 import style from "../styles/LandingPage.module.scss"
 import LandingPage  from "../components/LandingPage"
+import Contact from "../components/Contact"
 function NavWrapper(props) {
   const [isNav, setIsNav] = useState(false)
 
@@ -34,7 +35,11 @@ function NavWrapper(props) {
     case "About":
       inside =  (<About />);
       break;
-  }
+    case "Contact":
+      inside = (<Contact />)
+      break;
+  
+    }
 
 
   return (

@@ -19,7 +19,7 @@ function Publications() {
                         <h1 className={styles.title}> Group Activities For Families in Recovery</h1>
 
                         <p className={styles.authors}>Joan Zimmerman</p>
-                        <p className={styles.authors}> Jon Winek</p>
+                        <p className={styles.authors}> Jon  L. Winek</p>
 
 
                     </div>
