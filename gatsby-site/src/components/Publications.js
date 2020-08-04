@@ -2,6 +2,7 @@ import React from "react"
 import styles from "../styles/publications.module.scss"
 
 function Publications() {
+
   return (
     <div className={styles.fullBox}>
       <h1 className={styles.publicationsH1}>Publications</h1>
