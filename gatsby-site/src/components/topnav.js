@@ -3,7 +3,7 @@ import topnavstyles from "../styles/topnav.module.scss"
 import { animated, useSpring, config, useChain } from "react-spring"
 import { Link } from "gatsby"
 
-const Topnav = props => {
+const Topnav = (props) => {
   let navColor = "black"
 
   if (props.isNav) {

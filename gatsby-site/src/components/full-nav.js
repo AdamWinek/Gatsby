@@ -12,7 +12,7 @@ const Fullnav = ( props) => {
         <div className={fullnavstyles.menucontainer}>
             <div className={fullnavstyles.primary}>
                 <ul>
-                    <Link className={fullnavstyles.links} to="/contact"><li>Contact</li></Link>
+                    <Link className={fullnavstyles.links} to="/contact" ><li>Contact</li></Link>
                     <Link  className={fullnavstyles.links} to="/about" ><li>About</li></Link>
                     <Link className={fullnavstyles.links} to="/speaking"><li>Speaking</li></Link>
                 </ul>
