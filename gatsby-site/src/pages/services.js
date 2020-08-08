@@ -6,7 +6,7 @@ import '../styles/index.scss'
 export default function services() {
     return (
             <div>
-              <Head title="Services page"></Head>
+              <Head title="Services"></Head>
               <NavWrapper  type="Services"/>
             </div>
     )

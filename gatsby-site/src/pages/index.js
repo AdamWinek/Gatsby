@@ -7,7 +7,7 @@ import '../styles/index.scss'
 export default function Home() {
   return (
           <div>
-            <Head title="Home page"></Head>
+            <Head title="Home"></Head>
             <NavWrapper  type="LandingPage"/>
           </div>
   )

@@ -7,7 +7,7 @@ import '../styles/index.scss'
 export default function publications() {
   return (
           <div>
-            <Head title="Publications page"></Head>
+            <Head title="Publications"></Head>
             <NavWrapper  type="Publications"/>
           </div>
   )

@@ -7,7 +7,7 @@ import '../styles/index.scss'
 export default function about() {
   return (
           <div>
-            <Head title="Contact page"></Head>
+            <Head title="Contact"></Head>
             <NavWrapper  type="Contact"/>
           </div>
   )
