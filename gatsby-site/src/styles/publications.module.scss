@@ -14,6 +14,7 @@ $secondary: rgba(0, 0, 0, 0.466);
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .bookBox {
@@ -28,7 +29,7 @@ $secondary: rgba(0, 0, 0, 0.466);
 .bookBox {
   .bookImg {
     height: auto;
-    max-width: 30vw;
+    width: 30vw;
     z-index: 20;
     min-width: 100px;
   }
@@ -59,7 +60,7 @@ $secondary: rgba(0, 0, 0, 0.466);
 
 .bookBox {
   .description {
-    background-color: #f0d36a;
+    background-color: #251778;
     z-index: -20;
     transform: translate(-20px, -20px);
     max-width: 805px;
@@ -70,7 +71,7 @@ $secondary: rgba(0, 0, 0, 0.466);
   .description {
     .descriptionText {
       color: white;
-      font-size: 14px;
+      font-size: 16px;
       letter-spacing: 2px;
       line-height: 25px;
       font-weight: 400;

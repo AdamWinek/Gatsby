@@ -36,6 +36,35 @@ function Publications() {
           </p>
         </div>
       </div>
+      <div className={styles.bookBox}>
+        <div className={styles.book}>
+          <div className={styles.divImg}>
+            <img
+              className={styles.bookImg}
+              src={require("../images/FamilyTherapy.jpg")}
+            />
+          </div>
+          <div className={styles.booktextdiv}>
+            <h1 className={styles.title}>
+              {" "}
+              Family Therapy From Theory to Practice
+            </h1>
+            <p className={styles.authors}> Jon Winek</p>
+          </div>
+        </div>
+        <div className={styles.description}>
+          <p className={styles.descriptionText}>
+            Family Therapy: From Theory to Practice discusses relevant theories within their historical and philosophical contexts, explores the relationships of these theories to one another, and links them to their applications in family therapy practice.
+            <br></br>
+            The book begins by examining the 
+            shift from linear to systemic, 
+            and modern to post-modern epistemology
+            in the field. Subsequent sections address 
+            first generation, systemic, and post-modern models
+              of therapy. Specific family therapy theories discussed include psychodynamic, Bowen family systems therapy, Satir transformational and symbolic-experiential, Mental Research Institute, structural, strategic, Milan, solution-focused brief and constructivist therapy, narrative, behavioral, and cognitive-behavioral family therapy. The final section is devoted to professional processes and research and outcomes.
+          </p>
+        </div>
+      </div>
     </div>
   )
 }
