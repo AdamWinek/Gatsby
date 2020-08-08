@@ -4,9 +4,11 @@
     margin-bottom: 25px;
     margin-left: 15px;
 }
-.contactDiv{
-    height: 90px;
+.contactLink{
+    color: black;
+    text-decoration: none;
     width: calc(100% - 40px);
+    height: 90px;
     border: 1px solid  black;
     display: flex;
     margin-left: 20px;
@@ -14,6 +16,10 @@
     margin-bottom: 5px;
     margin-top: 5px;
     max-width: 360px;
+
+}
+.contactDiv{
+    display: flex;
 
 }
 .map{
