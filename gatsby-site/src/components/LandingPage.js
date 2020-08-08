@@ -1,5 +1,6 @@
 import React from "react"
 import style from "../styles/LandingPage.module.scss"
+import { Link } from "gatsby"
 
 
 function LandingPage() {
@@ -20,7 +21,7 @@ function LandingPage() {
                       their full potential in order to thrive.
                     </p>
                   </div>
-                  <button className={style.button}>Get in Contact</button>
+                  <Link to="/contact">  <button className={style.button} > Get in Contact </button>  </Link>
         </div>
     )
 } export default LandingPage
