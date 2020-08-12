@@ -5,26 +5,26 @@ import styles from "../styles/service.module.scss"
 function Service() {
   return (
     <div className={styles.container}>
-        
+
       <div>
-          
+
         <h1>Services </h1>
-       
+
         <p className={styles.blocktext}>
           Dr. Winek treats families, couples, and individuals from a systemic
           perspective. His work is informed by both empirical studies and
           theoretical models. He assists clients with a variety of emotional,
-          personal, and relations problems.
+          personal, and relationship problems.
         </p>
         <h2>Services Offered</h2>
         <ul>
-            <li className={styles.blocktext}>
-             Family Therapy
+          <li className={styles.blocktext}>
+            Family Therapy
             </li>
-            <li className={styles.blocktext}>
-            Couple Therapy
+          <li className={styles.blocktext}>
+            Couples Therapy
             </li>
-            <li className={styles.blocktext}>
+          <li className={styles.blocktext}>
             Individual Therapy
             </li>
         </ul>
@@ -35,9 +35,9 @@ function Service() {
           be provided in an outpatient practice, Dr. Winek will make a referral
           for appropriate care.
         </p>
-       
+
         <p className={styles.blocktext}>
-          Because of COVID-19 Dr. Winek is currently seeing clients on
+          Because of COVID-19, Dr. Winek is currently seeing clients on
           <a href="https://doxy.me/winekclinic"> https://doxy.me/winekclinic</a>
         </p>
       </div>

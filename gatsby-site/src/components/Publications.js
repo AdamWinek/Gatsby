@@ -13,13 +13,17 @@ function Publications() {
             <img
               className={styles.bookImg}
               src={require("../images/GroupActivities.jpg")}
+              alt=""
             />
           </div>
           <div className={styles.booktextdiv}>
-            <h1 className={styles.title}>
-              {" "}
+            <a style={{ textDecoration: "none", color: "black" }} href="https://us.sagepub.com/en-us/nam/group-activities-for-families-in-recovery/book237711">
+              <h1 className={styles.title}>
+                {" "}
               Group Activities For Families in Recovery
             </h1>
+            </a>
+
 
             <p className={styles.authors}>Joan Zimmerman</p>
             <p className={styles.authors}> Jon Winek</p>
@@ -42,13 +46,18 @@ function Publications() {
             <img
               className={styles.bookImg}
               src={require("../images/FamilyTherapy.jpg")}
+              alt=""
             />
           </div>
           <div className={styles.booktextdiv}>
-            <h1 className={styles.title}>
-              {" "}
+            <a style={{ textDecoration: "none", color: "black" }} href="https://titles.cognella.com/family-therapy-9781516506026">
+              <h1 className={styles.title}>
+                {" "}
               Family Therapy From Theory to Practice
             </h1>
+
+            </a>
+
             <p className={styles.authors}> Jon Winek</p>
           </div>
         </div>
@@ -56,10 +65,10 @@ function Publications() {
           <p className={styles.descriptionText}>
             Family Therapy: From Theory to Practice discusses relevant theories within their historical and philosophical contexts, explores the relationships of these theories to one another, and links them to their applications in family therapy practice.
             <br></br>
-            The book begins by examining the 
-            shift from linear to systemic, 
+            The book begins by examining the
+            shift from linear to systemic,
             and modern to post-modern epistemology
-            in the field. Subsequent sections address 
+            in the field. Subsequent sections address
             first generation, systemic, and post-modern models
               of therapy. Specific family therapy theories discussed include psychodynamic, Bowen family systems therapy, Satir transformational and symbolic-experiential, Mental Research Institute, structural, strategic, Milan, solution-focused brief and constructivist therapy, narrative, behavioral, and cognitive-behavioral family therapy. The final section is devoted to professional processes and research and outcomes.
           </p>

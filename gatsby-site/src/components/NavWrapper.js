@@ -6,7 +6,7 @@ import Fullnav from "./Full-nav"
 import About from "./About"
 import Publications from "../components/Publications"
 import style from "../styles/LandingPage.module.scss"
-import LandingPage  from "../components/LandingPage"
+import LandingPage from "../components/LandingPage"
 import Contact from "../components/Contact"
 import Service from "../components/Service"
 import Page404 from "../components/404"
@@ -27,15 +27,15 @@ function NavWrapper(props) {
   })
   let inside;
 
-  switch (props.type){
+  switch (props.type) {
     case "LandingPage":
       inside = (<LandingPage />);
       break;
     case "Publications":
-      inside = (<Publications  />);
+      inside = (<Publications />);
       break;
     case "About":
-      inside =  (<About />);
+      inside = (<About />);
       break;
     case "Contact":
       inside = (<Contact />)
@@ -46,6 +46,8 @@ function NavWrapper(props) {
     case "404Page":
       inside = (<Page404 />)
       break;
+    default:
+      inside = (<Page404 />)
   }
 
 

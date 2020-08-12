@@ -1,6 +1,6 @@
-import React, { useRef } from "react"
+import React from "react"
 import topnavstyles from "../styles/topnav.module.scss"
-import { animated, useSpring, config, useChain } from "react-spring"
+import { animated, useSpring, config } from "react-spring"
 import { Link } from "gatsby"
 
 const Topnav = (props) => {
