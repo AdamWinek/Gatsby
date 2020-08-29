@@ -15,7 +15,7 @@ function Contact(props) {
                     title="Phone"
                     info="828-260-1864"
                     other="Call or Text" /> </a>
-                <a className={styles.contactLink} href="jwinek@charter.net"> <ContactBox
+                <a className={styles.contactLink} href="mailto:jwinek@charter.net"> <ContactBox
                     icon={<EmailOutlinedIcon className={styles.icon} />}
                     title="Email"
                     info="Jwinek@charter.net" /></a>
