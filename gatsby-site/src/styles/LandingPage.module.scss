@@ -76,6 +76,12 @@ $prim-color: rgba(25, 121, 35, 0.7);
       font-size: 14px;
       color: #ffffff;
       text-decoration: none;
+      transition: background-color .4s ease-in-out 0s, color .4s ease-in-out 0s;
+    }
+    .button:hover {
+      color: rgb(41, 155, 75);
+      background-color: white;
+      
     }
   }
 }
