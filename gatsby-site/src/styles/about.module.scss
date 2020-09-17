@@ -1,0 +1,86 @@
+$secondary: rgba(0, 0, 0, 0.466);
+
+.container {
+    margin-top: 100px;
+    margin-left: 20px;
+    padding-right: 20px;
+
+}
+.container {
+    h1 {
+        font-size: 3em;
+        letter-spacing: 3px;
+    }
+}
+.name {
+    color: white;
+    background-color: rgba(25,121,35,.7);
+    max-width: 200px;
+}
+.bio {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+   
+    p {
+        padding-top: 20px;
+        max-width: 1000px;
+        font-size: 14px;
+        letter-spacing: 2px;
+        line-height: 25px;
+    }
+}
+.credentials {
+    h3 {
+        color: $secondary;
+        letter-spacing: 1px
+    }
+    margin-top: 40px;
+    ul {
+        list-style-type: none;
+    }
+    div {
+        padding-top: 20px;
+        ul li:not(:first-child) {
+            margin-top: 15px;;
+        }
+        ul li p:first-child {
+            margin-bottom: 6px;
+        }
+        .time {
+            color: $secondary;
+            letter-spacing: 2px;
+        }
+        p {
+           
+            font-size: 14px;
+            letter-spacing: 2px;
+          
+        }
+    }
+}
+.profile {
+    background: url("../images/jon.jpg");
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    shape-outside: circle();
+    float: left;
+    margin-right: 40px;
+   
+    
+ 
+
+}
+.content {
+    margin-top: 20px;
+
+
+}
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1000px;
+@media (max-width: $breakpoint-tablet) {
+   
+  
+}

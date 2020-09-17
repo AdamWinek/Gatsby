@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.header{
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+.contactLink{
+    color: black;
+    text-decoration: none;
+    width: calc(100% - 40px);
+    height: 90px;
+    border: 1px solid  black;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    max-width: 360px;
+
+}
+.contactDiv{
+    display: flex;
+
+}
+.map{
+    width: 100%;
+    margin: auto;
+    border: none;
+    height: 500px;
+   
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.contactsDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contactDiv{
+    .icon{
+        display: flex;
+        height: 100% !important;
+        width: 35px !important;
+        margin-left: 15px;
+    }
+}
+.contactDiv{
+    .infoDiv{
+        height: 100%;
+        margin-left: 40px;
+        padding-top: 15px;
+        padding-right: 15px;
+    }
+}
+.contactDiv{
+    .infoDiv{
+       .infoTitle{
+           font-size: 20px;
+           line-height: 25px;
+           font-weight: normal !important;
+           margin-bottom: 0px;
+           font-family: Roboto;
+       }
+    }
+}
+
+.contactDiv{
+    .infoDiv{
+       .infoText{
+           font-size: 12px;
+           line-height: 20px;
+           font-weight: 400;
+           font-family: Roboto;
+
+
+       }
+    }
+}
